@@ -1,0 +1,71 @@
+.manage-order-container{
+  width: 98%;
+  margin: 0 auto;
+  .date-picker-title{
+    padding-top: var(--vertical-gap);
+    font-size: var(--emphasize-font-size);
+      span{
+        color: var(--must-color);
+      }
+  }
+  .date-picker-container{
+    margin-top: var(--vertical-gap);
+    border: var(--border-style);
+    padding: 10px;
+    background-color: var(--second-background-color);
+    .date-choose{
+      display: flex;
+      div{
+        span{
+          font-size: var(--emphasize-font-size);
+          margin-right: 10px;
+        }
+        .date-picker{
+          text-align: center;
+        }
+      }
+      div:nth-child(1){
+        margin-right: 10%;
+      }
+    }
+    .teacher-input-button{
+      display: flex;
+      justify-content: space-between;
+      margin-top: var(--vertical-gap);
+      div:nth-child(1){
+        display: flex;
+        align-items: center;
+        span{
+          width: 115px;
+          font-size: var(--emphasize-font-size);
+        }
+      }
+      div:nth-child(2){
+        Button:nth-child(1){
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .table-container{
+    .radio-number-container{
+      margin: var(--vertical-gap) 0;
+      display: flex;
+      align-items: center;
+      .radio-container{
+        .radio-button{
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}
+.text-flow{
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
+  -webkit-line-clamp: 3;
+  word-wrap: 'break-word';
+  word-break: 'break-word'; 
+}

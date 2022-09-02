@@ -1,0 +1,51 @@
+:root {
+  /* 一级主题颜色 深绿 */
+  --first-theme-color: #1890ff;
+  /* 二级主题颜色 浅绿 */
+  --second-theme-color: rgb(153, 190, 173);
+  /* 一级背景颜色 白色 */
+  --first-background-color: rgb(255, 255, 255);
+  /* 二级背景颜色 灰色 */
+  --second-background-color: rgb(240, 242, 245);
+  /* 三级背景颜色 */
+  --third-background-color: rgb(194, 195, 197);
+  /* 颜色box-shadow */
+  --color-box-shadow: 0 0 0 2px rgb(0 83 7 / 20%) !important;
+
+  /* 立体悬浮效果 */
+  --stereoscopic-box-shadow: 0 8px 12px rgb(0 33 79 / 11%) !important;
+  --stereoscopic-border-radius: 10px !important;
+
+  /* success warning error */
+  --success-color: rgb(82, 196, 26);
+  --warning-color: rgb(222, 151, 9);
+  --error-color: rgb(255, 77, 79);
+
+  /* 强调型字体 */
+  --emphasize-font-size: 18px;
+
+  /* 竖直间距 */
+  --vertical-gap: 20px;
+
+  /* 必填颜色 */
+  --must-color: #ff4d4f;
+
+  /* 边框颜色 */
+  --border-style: 1px solid rgb(194, 195, 197);
+}
+.ant-table-thead > tr > th {
+  font-size: 12px;
+}
+.ant-table-tbody > tr > td {
+  font-size: 12px;
+}
+.ant-table-pagination-right {
+  justify-content: center !important;
+}
+.ant-upload {
+  padding: 0 !important;
+  border: none !important;
+}
+.ant-btn > span {
+  border: 0 !important;
+}

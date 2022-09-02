@@ -1,0 +1,92 @@
+.manage-order-container{
+  width: 98%;
+  margin: 0 auto;
+  .manage-order-header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    .radio-container{
+      width: 50%;
+      .radio-button{
+        margin-right: 10px;
+      }
+    }
+    .search-container{
+      width: 50%;
+    }
+  }
+  .date-picker-title{
+    margin-top: var(--vertical-gap);
+    font-size: var(--emphasize-font-size);
+      span{
+        color: var(--must-color);
+      }
+  }
+  .date-picker-container{
+    display: flex;
+    margin-top: var(--vertical-gap);
+    justify-content: space-between;
+    border: var(--border-style);
+    padding: 10px;
+    background-color: var(--second-background-color);
+    div{
+      span{
+        font-size: var(--emphasize-font-size);
+        margin-right: 10px;
+      }
+      .date-picker{
+        text-align: center;
+      }
+    }
+    div:nth-child(3){
+      width: 40%;
+      text-align: center;
+      .button{
+        margin-right: 10px;
+        font-size: 12px !important;
+        text-align: center;
+        line-height: 20px;
+      }
+    }
+  }
+  .table-container{
+    .table-header{
+      margin-top: var(--vertical-gap);
+      display: flex;
+      justify-content: space-between;
+      background-color: var(--second-background-color);
+      padding: 20px;
+      height: 60px;
+      align-items: center;
+      div:nth-child(1){
+        .span{
+          padding: 1px 3px;
+          text-align: center;
+          background-color: white;
+          border: var(--border-style);
+          margin: 0 5px;
+        }
+      }
+      div:nth-child(2){
+        display: flex;
+        Button{
+          height: 40px;
+          font-size: var(--emphasize-font-size)!important;
+        }
+        div{
+          background-color: #F0F2F5;
+          margin: 0 10px;
+        }
+      }
+    } 
+  }
+}
+.text-flow{
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  line-clamp: 2;
+  -webkit-line-clamp: 3;
+  word-wrap: 'break-word';
+  word-break: 'break-word'; 
+}
